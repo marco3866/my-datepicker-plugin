@@ -1,12 +1,41 @@
 .datepicker-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.datepicker-container label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .datepicker-input {
-  padding: 10px;
+  padding: 0.5rem;
+  border: 2px solid #ccc;
   border-radius: 4px;
-  border: 1px solid #ccc;
-  font-size: 16px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.datepicker-input.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+/* Hover and focus effects */
+.datepicker-input:hover {
+  border-color: #0066cc;
+}
+
+.datepicker-input:focus {
+  outline: none;
+  border-color: #003366;
+  box-shadow: 0 0 5px rgba(0, 51, 102, 0.5);
 }
