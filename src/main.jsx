@@ -12,6 +12,6 @@ import './index.css'; // Import des styles globaux de l'application
 createRoot(document.getElementById('root')).render(
   // Le mode strict est activé pour des vérifications supplémentaires en mode développement
   <StrictMode>
-    <App /> {/* Rendu du composant principal App */}
+    <App /> {/* Rendu du composant principal Ap */}
   </StrictMode>
 );
