@@ -1,42 +1,52 @@
+/* Style pour la racine de l'application */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 1280px; 
+  margin: 0 auto; 
+  padding: 2rem; 
+  text-align: center; 
 }
 
+/* Style pour les logos */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 6em; /* Définit la hauteur des logos */
+  padding: 1.5em; /* Ajoute un espacement autour du logo */
+  will-change: filter; /* Optimise les changements de propriété de filtre */
+  transition: filter 300ms; /* Animation douce lors du changement de filtre */
 }
 
+/* Effet de survol pour les logos */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Ajoute une ombre portée au survol */
+}
+
+/* Effet de survol spécifique au logo React */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* Ajoute une ombre portée de couleur React */
+}
+
+/* Animation de rotation pour les logos */
 @keyframes logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Début de l'animation (aucune rotation) */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Fin de l'animation (rotation complète) */
   }
 }
 
+/* Animation uniquement activée si l'utilisateur n'a pas réduit les animations */
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+    animation: logo-spin infinite 20s linear; /* Animation de rotation infinie sur le deuxième logo */
   }
 }
 
+/* Style pour les cartes */
 .card {
-  padding: 2em;
+  padding: 2em; /* Ajoute un espacement à l'intérieur de la carte */
 }
 
+/* Style pour le texte "read the docs" */
 .read-the-docs {
-  color: #888;
+  color: #888; /* Texte gris clair */
 }
