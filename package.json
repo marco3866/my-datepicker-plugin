@@ -1,6 +1,6 @@
 {
   "name": "my-datepicker-plugin",
-  "version": "1.1.5",
+  "version": "1.1.8",
   "description": "A custom React date picker component",
   "main": "./dist/datepicker-plugin.umd.js",
   "module": "./dist/datepicker-plugin.es.js",

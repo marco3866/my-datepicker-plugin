@@ -1,5 +1,8 @@
 # 📅 DatePickerPlugin - React Date Picker Component
 
+### Auteur :
+👤 Marc Torres
+
 **DatePickerPlugin** est un composant React simple et facile à utiliser pour ajouter une sélection de date dans vos formulaires. Il permet de choisir une date facilement et d'ajuster la sélection à vos besoins dans un projet React.
 
 ## 📦 Installation
